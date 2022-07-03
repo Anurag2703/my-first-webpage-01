@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Anurag Panda">
+        <meta name="description" content="This page contains all the things that I am learning how to create as I learn HTML.">
+        <title>My first Web Page</title>
+        <link rel="icon" href="html.jpg.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="main.css.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Hello World!</h1>
+
+            <nav aria-labelledby="primary_navigation">
+                <p id="primary_navigation">Primary Navigation</p>
+                <ul>
+                    <li>
+                        <a href="#html">Learning HTML</a>    <!--This will take you to the section where learning html has been discussed-->
+                    </li>
+                    <li>
+                        <a href="#vacation">Planning for a Vacation</a>    <!--This will take you to the section where we've talked about the vacation-->
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Me</a>    <!--This will take you to the section where we've talked about the vacation-->
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr>
+
+        <main>
+            <article id="html">
+                <h2>I am ready to learn HTML!</h2>
+                <p>Hey people! This is my first web page.</p>
+                <section>
+                    <h3>HTML5</h3>
+                    <img src="images/html.jpg.jpg" alt="HTML5 Logo" title="HTML5 Logo" height="300" width="300">    <!--the HEIGHT and WIDTH decide the image aspect ratio in the webpage-->
+                    <figure>
+                        <figcaption>
+                            This is an example of a HTML code:&gt;
+                        </figcaption>
+                        <p>
+                            <code>
+                                <strong>
+                                        &lt;h1&gt; Hello World!&lt;h1&gt;   <!--The <code></code> element allows you to show a code in the webpage itself-->
+                                </strong>
+                            </code>
+                        </p>
+                    </figure>
+                </section>
+                <section>
+                    <h3>My Daily Schedule</h3>
+                    <p>Let me tell you how:</p>
+                    <ol>
+                        <li>I learn about web dev.</li>
+                        <li>I plan out my schedule.</li>
+                        <li>I use resources from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/" target="_blank">MDN</a></abbr>.</li>
+                    </ol>
+                    <aside>
+                        <details>
+                            <summary>Guess the <mark>number of hours</mark> I code per day.</summary>
+                            <p>I start at <time datetime="08:00">8am</time> every morning and continue my coding practice upto <time datetime="PT3H">3hrs</time>.</p>
+                        </details>
+                    </aside>
+                    <br>
+                    <table>
+                        <caption>
+                            <address>My Daily Schedule</address>
+                        </caption>
+                        <th>&nbsp;</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">My Activities</th>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Morning</th>
+                                <td>
+                                    <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                                </td>
+                                <td>
+                                    Write a code
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Break</th>
+                                <td>
+                                    <time datetime="11:00">11am</time>-<time datetime="12:00">12am</time>
+                                </td>
+                                <td>
+                                    Eat lunch
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Lunch</th>
+                                <td>
+                                    <time datetime="12:00">12am</time>-<time datetime="17:00">5pm</time>
+                                </td>
+                                <td>
+                                    Study for other Courses.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Evening</th>
+                                <td rowspan="2">All Other Time</td>
+                                <td>Free Time</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Night</th>
+                                <td>Sleep</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">So that's what I do the whole week except the Sundays.</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+                <p><a href="#">Back to Top</a></p>
+            </article>
+            
+            <hr>
+
+            <article id="vacation">
+                <h2>I am also planning a vacation.</h2>
+                <p>I've been working hard and really <em>need a gateway!</em></p>
+                <p>I live in Bhubaneswar and I want to visit a beach.</p>
+                
+                <hr>
+                
+                <section>
+                    <h3>Places I'd like to visit.</h3>
+                    <p>
+                        <strong>&lt;</strong> This is the list of those places: <strong>&gt;</strong>
+                        <br><br>
+                            1. <abbr title="United Emirates Arab"><a href="https://en.wikipedia.org/wiki/United_Arab_Emirates" target="_blank">UAE</a></abbr>
+                            <figure>
+                                <img src="images/UAE.jpg" alt="UAE pic" title="UAE Flag Day" width="300" height="200">
+                                <figcaption>
+                                    UAE Flag Day
+                                </figcaption>
+                            </figure>
+                            2. <a href="https://en.wikipedia.org/wiki/Caribbean" target="_blank">Caribbean</a>
+                            <figure>
+                                <img src="images/caribbean.jpg" alt="Caribbean Pic" title="Caribbean Vacation Spot" width="300" height="200" loading="lazy">
+                                <figcaption>
+                                    Caribbean Beach Gateway
+                                </figcaption>
+                            </figure>
+                            3. <a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank">New York</a>
+                            <figure>
+                                <img src="images/NY_Times_Square.jpg" alt="Times Square" title="NY Times Square" width="300" height="200" loading="lazy">
+                                <figcaption>
+                                    The Times Square
+                                </figcaption>
+                            </figure>   
+                    </p>
+
+                    <!--To Do: Add more places-->
+                    <h4>Places I'd like to visit.</h4>
+                    <p>I've heard good things about these places:</p>
+
+                    <address>
+                        Puri, Odisha<br>
+                            Ranchi, Jharkhand<br>
+                            Jaipur, Rajasthan<br>
+                    </address>
+                </section>
+
+                <hr>
+
+                <section>
+                    <h5>Places I'd never like to visit.</h5>
+                    <dl>
+                        <dt>North Pole</dt>
+                        <dd>I hear that this is <strong>very very cold</strong>!</dd>
+
+                        <dt>South Pole</dt>
+                        <dd>I hear that this too is <strong>very very cold</strong>!</dd>
+                    </dl>
+                    <p>So anywhere cold, <strong>No Way I'd travel!</strong></p>
+                </section>
+                <p><a href="#">Back to the top</a></p>
+            </article>
+
+            <hr>
+
+            <article id="contact">
+                <h2>Contact Me</h2>
+                <p>I'd really like to hear from you!</p>
+
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                        <p>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" name=" firstName" id="firstName" placeholder="Jane" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" name=" lastName" id="lastName" placeholder="Doe" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" placeholder="Your Secret" required>
+                        </p>
+                        <p>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                        </p>
+                        <p>
+                            <label for="decade">Favourite Decade:</label>
+                            <input type="number" name="decade" id="decade" min="1600" max="2022" step="10" value="1980">
+                        </p>
+                        <p>
+                            <label for="coffee">Favourite Coffee:</label>
+                            <!-- <select name="coffee" id="coffee" multiple size="3">
+                                <optgroup label="Coffee">
+                                    <option value="regular coffee" selected>Regular Coffee</option>
+                                    <option value="iced coffee">Iced Coffee</option>
+                                </optgroup>
+                                <optgroup label="Espresso Drinks">
+                                    <option value="latte">Latte</option>
+                                    <option value="cappuccino">Cappuccino</option>
+                                    <option value="cortado">Cortado</option>
+                                    <option value="americano">Americano</option>
+                                </optgroup>
+                                    <option value="other">Other</option> -->
+                                <input type="text" name="coffee" id="coffee" list="coffee-list">
+                                <datalist id="coffee-list">
+                                    <option value="regular coffee">
+                                    <option value="iced coffee">
+                                    <option value="latte">
+                                    <option value="cappuccino">
+                                    <option value="cortado">
+                                    <option value="americano">
+                                    <option value="other">
+                                </datalist><!--if I use the SELECTED attribute, then it'll show the option in default-->
+                        </p>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>What is your favourite food?</legend>
+                        <p>
+                            <input type="radio" name="food" id="tacos" value="tacos">
+                            <label for="tacos">Tacos</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="food" id="pizza" value="pizza">
+                            <label for="pizza">Pizza</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="food" id="other" value="other">
+                            <label for="other">Other</label>
+                        </p>
+                    </fieldset>
+                    
+                    <br>
+
+                    <fieldset>
+                        <legend>Do you have pets?</legend>
+                            <input type="radio" name="animal" id="yes" value="yes">
+                            <label for="yes">Yes</label>
+                            
+                            <fieldset>
+                                <legend>If yes then which one among the option?</legend>
+                                <p>
+                                    <input type="checkbox" name="pet" id="cat" value="cat">
+                                    <label for="cat">Cat</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox" name="pet" id="dog" value="dog">
+                                    <label for="dog">Dog</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox" name="pet" id="fish" value="fish">
+                                    <label for="fish">Fish</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox" name="pet" id="other" value="other">
+                                    <label for="other">Other</label>
+                                </p>
+                            </fieldset>
+                        <p>
+                            <input type="radio" name="animal" id="no" value="no">
+                            <label for="no">No</label>
+                        </p>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Send me a note!</legend>
+                        <label for="message">Your message:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here:-"></textarea>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Submit</button>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </article>
+
+        </main>
+
+        <hr>
+
+        <footer>
+            <p><a href="about_me.html" target="_blank">ABOUT ME</a></p>
+
+            <p>For collaboration, please click on my username: <strong><abbr title="Github"><a href="https://github.com/Anurag2703" target="_blank">Anurag2703</a></abbr></strong></p>
+            
+            <p>
+                <strong>&lt;&lt;&lt;</strong> &copy; <strong><abbr title="Instagram Profile"><a href="https://www.instagram.com/__iam_what_iam__/" target="_blank">ANURAG PANDA</a></abbr></strong> <strong>&gt;&gt;&gt;</strong>
+            </p>
+            <p><a href="#">Back to the top</a></p>
+        </footer>
+    </body>
+</html>
